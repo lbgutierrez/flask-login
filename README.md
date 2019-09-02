@@ -1,16 +1,16 @@
-## Tutorial Flask - Capitulo 1
+# Tutorial Flask - Capitulo 1
 
-# Objetivo
+## Objetivo
 
 Generar un "hello world" paso a paso para crear una aplicación web basado en lenguaje de programación Python sobre el Framework Flask.
 
-# Pre-requisitos
+## Pre-requisitos
 
 - Tener instalado Python 3
 - Tener configurado Python por medio de línea de comando
 - Tutorial realizado sobre sistema operativo Windows 10
 
-# Comencemos
+## Comencemos
 
 Creamos un ambiente virtual de Python con el siguiente comando.
 
