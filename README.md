@@ -1,10 +1,24 @@
-Creamos un ambiente virtual de python con el siguiente comando.
+## Tutorial Flask - Capitulo 1
+
+# Objetivo
+
+Generar un "hello world" paso a paso para crear una aplicación web basado en lenguaje de programación Python sobre el Framework Flask.
+
+# Pre-requisitos
+
+- Tener instalado Python 3
+- Tener configurado Python por medio de línea de comando
+- Tutorial realizado sobre sistema operativo Windows 10
+
+# Comencemos
+
+Creamos un ambiente virtual de Python con el siguiente comando.
 
 ```
->python -m venv myvenv	
-```	
+>python -m venv myvenv  
+``` 
 
-Para activar este nuevo ambiente virtual, es necesario ejecutar el archivo activate.bat que se encuentra en la carpeta myvenv creada por python.
+Para activar este nuevo ambiente virtual, es necesario ejecutar el archivo activate.bat que se encuentra en la carpeta myvenv creada por Python.
 
 ```
 >cd myvenv/Scripts
@@ -17,11 +31,11 @@ Una vez que se activa el ambiente virtual, el prompt cambiará y quedará de la 
 (myvenv) C:\workspace\flask-login>
 ```
 
-Luego debemos instalar las dependencias de flask dentro del ambiente virtual que hemos creado y para ello utilizamos el siguiente comando.
+Luego debemos instalar las dependencias de Flask dentro del ambiente virtual que hemos creado y para ello utilizamos el siguiente comando.
 
 ```
 pip install flask
-```	
+``` 
 
 Con un editor de texto, crear los siguientes tres archivos.
 
@@ -37,7 +51,7 @@ Las dependencias que vayamos agregando, debemos configurarlas en nuestro archivo
 pip freeze > requirements.txt
 ```
 
-Luego configuramos el archivo .gitignore para ignorar los archivos de python que no formaran parte del proyecto, para ello agregamos el siguiente contenido en el archivo.
+Luego configuramos el archivo .gitignore para ignorar los archivos de Python que no formaran parte del proyecto, para ello agregamos el siguiente contenido en el archivo.
 
 ```
 myvenv/
@@ -56,7 +70,7 @@ build/
 *.egg-info/
 ```
 
-Agregar el siguiente codigo fuente en el archivo app.py
+Agregar el siguiente código fuente en el archivo app.py
 
 ```
 from flask import Flask
