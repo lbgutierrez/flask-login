@@ -95,7 +95,7 @@ En nuestra consola, configurar las siguientes variables de entorno
 >set FLASK_ENV=development
 ```
 
-Ejecutar nuestra aplicacion con
+Ejecutar nuestra aplicación con
 
 ```
 >flask run
@@ -109,12 +109,12 @@ Finalmente subimos nuestros fuentes al repositorio con el siguiente comando
 >git push
 ```
 
-## Consclusión
+## Conclusión
 Con estos pasos tu habrás aprendido lo siguiente:
 
 - Crear un ambiente virtual sobre Python para aislar completamente nuestro entorno de desarrollo respecto al entorno de ejecución
 - Instalar dependencias por medio del comando pip
-- Crear un archivo requirements.txt para poder configurar nuestra aplicacion en otros ambientes
+- Crear un archivo requirements.txt para poder configurar nuestra aplicación en otros ambientes
 - Configurar archivo .gitignore para ignorar carpetas y archivos que no se desean subir al repositorio
-- Arrancar la aplicacion flask por medio de linea de comando en ambiente local
+- Arrancar la aplicación flask por medio de linea de comando en ambiente local
 - Subir los fuentes a github
