@@ -6,11 +6,18 @@ Generar un "hello world" paso a paso para crear una aplicación web basado en le
 
 ## Pre-requisitos
 
+- Tener instalado y consigurado git para usarlo por medio de linea de comando
 - Tener instalado Python 3
 - Tener configurado Python por medio de línea de comando
 - Tutorial realizado sobre sistema operativo Windows 10
 
 ## Comencemos
+
+Crear un nuevo repositorio en github y clonarlo en nuestro workspace de la siguiente manera
+
+```
+git clone <https://github.com/github-user/my-repository>
+```
 
 Creamos un ambiente virtual de Python con el siguiente comando.
 
@@ -34,7 +41,7 @@ Una vez que se activa el ambiente virtual, el prompt cambiará y quedará de la 
 Luego debemos instalar las dependencias de Flask dentro del ambiente virtual que hemos creado y para ello utilizamos el siguiente comando.
 
 ```
-pip install flask
+>pip install flask
 ``` 
 
 Con un editor de texto, crear los siguientes tres archivos.
@@ -48,7 +55,7 @@ Con un editor de texto, crear los siguientes tres archivos.
 Las dependencias que vayamos agregando, debemos configurarlas en nuestro archivo requirements.txt, para ello ejecutamos el comando pip freeze, cuya salida la volcaremos en el archivo requirements.txt.
 
 ```
-pip freeze > requirements.txt
+>pip freeze > requirements.txt
 ```
 
 Luego configuramos el archivo .gitignore para ignorar los archivos de Python que no formaran parte del proyecto, para ello agregamos el siguiente contenido en el archivo.
@@ -80,3 +87,34 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 ```
+
+En nuestra consola, configurar las siguientes variables de entorno
+
+```
+>set FLASK_APP=app.py
+>set FLASK_ENV=development
+```
+
+Ejecutar nuestra aplicacion con
+
+```
+>flask run
+```
+
+Finalmente subimos nuestros fuentes al repositorio con el siguiente comando
+
+```
+>git add -A
+>git commit -m "linea base"
+>git push
+```
+
+## Consclusión
+Con estos pasos tu habrás aprendido lo siguiente:
+
+- Crear un ambiente virtual sobre Python para aislar completamente nuestro entorno de desarrollo respecto al entorno de ejecución
+- Instalar dependencias por medio del comando pip
+- Crear un archivo requirements.txt para poder configurar nuestra aplicacion en otros ambientes
+- Configurar archivo .gitignore para ignorar carpetas y archivos que no se desean subir al repositorio
+- Arrancar la aplicacion flask por medio de linea de comando en ambiente local
+- Subir los fuentes a github
