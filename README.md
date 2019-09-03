@@ -1,5 +1,22 @@
 # Tutorial Flask - Capitulo 1
 
+```
+Si solo deseas ejecutar este proyecto, debe seguir los siguientes pasos:
+    1. Clonar el proyecto
+        git clone https://github.com/lbgutierrez/tutorial-flask-cap1.git
+    2. Crear ambiente virtual de python
+        python -m venv myvenv
+    3. Activar el ambiente
+        .\myvenv\Scripts\activate.bat
+    3. Instalar las dependencias
+        python -m pip install -r requirements.txt
+    4. Configurar variables
+        set FLASK_APP=app.py
+        set FLASK_ENV=development
+    5. Arrancar
+        python -m flask run
+```
+
 ## Objetivo
 
 Generar un "hello world" paso a paso para crear una aplicación web basado en lenguaje de programación Python sobre el Framework Flask.
@@ -98,7 +115,7 @@ En nuestra consola, configurar las siguientes variables de entorno
 Ejecutar nuestra aplicación con
 
 ```
->flask run
+>python -m flask run
 ```
 
 Finalmente subimos nuestros fuentes al repositorio con el siguiente comando
@@ -118,3 +135,4 @@ Con estos pasos tu habrás aprendido lo siguiente:
 - Configurar archivo .gitignore para ignorar carpetas y archivos que no se desean subir al repositorio
 - Arrancar la aplicación flask por medio de linea de comando en ambiente local
 - Subir los fuentes a github
+
