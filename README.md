@@ -1,7 +1,7 @@
 # Tutorial Flask - Capitulo 1
 
 ```
-Si solo deseas ejecutar este proyecto, debe seguir los siguientes pasos:
+Si solo deseas ejecutar este proyecto, sigue los siguientes pasos:
     1. Clonar el proyecto
         git clone https://github.com/lbgutierrez/tutorial-flask-cap1.git
     2. Crear ambiente virtual de python
