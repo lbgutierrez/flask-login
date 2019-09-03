@@ -2,35 +2,6 @@
 
 En este tutorial, solo se pretende crear de forma práctica una aplicacion hello world, haciendo uso del framework Flask.
 
-Si solo deseas ejecutar este proyecto, sigue los siguientes pasos para configurar el proyecto
-
-```
-1. Clonar el proyecto
-
-    git clone https://github.com/lbgutierrez/tutorial-flask-cap1.git
-
-2. Crear ambiente virtual de python
-
-    python -m venv myvenv
-
-3. Activar el ambiente
- 
-    .\myvenv\Scripts\activate.bat
-
-4. Instalar las dependencias
-    
-    python -m pip install -r requirements.txt
-
-5. Configurar variables
-    
-    set FLASK_APP=app.py
-    set FLASK_ENV=development
-    
-6. Arrancar
- 
-    python -m flask run
-```
-
 ## Objetivo
 
 Generar un "hello world" paso a paso para crear una aplicación web basado en lenguaje de programación Python sobre el Framework Flask.
@@ -150,3 +121,33 @@ Con estos pasos tu habrás aprendido lo siguiente:
 - Arrancar la aplicación flask por medio de linea de comando en ambiente local
 - Subir los fuentes a github
 
+## Anexos
+
+A1. Instrucciones para clonar, configurar y ejecutar esta aplicación.
+
+```
+1. Clonar el proyecto
+
+    git clone https://github.com/lbgutierrez/tutorial-flask-cap1.git
+
+2. Crear ambiente virtual de python
+
+    python -m venv myvenv
+
+3. Activar el ambiente
+ 
+    .\myvenv\Scripts\activate.bat
+
+4. Instalar las dependencias
+    
+    python -m pip install -r requirements.txt
+
+5. Configurar variables
+    
+    set FLASK_APP=app.py
+    set FLASK_ENV=development
+    
+6. Arrancar
+ 
+    python -m flask run
+```
